@@ -1,7 +1,27 @@
-﻿.venv/
+# Secrets / environment
 .env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
 __pycache__/
-*.pyc
-.DS_Store
+*.py[cod]
 *.egg-info/
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
